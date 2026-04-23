@@ -4,7 +4,7 @@ A powerful UserScript designed to enhance the readability of Arabic text on webs
 
 ## Features 🛠️
 
-- **Dynamic Font Injection:** Injects the "Tajawal" Google Font directly into any webpage.
+- **Dynamic Font Injection:** Injects the Fonts (Tajawal, Cairo, IBM Plex Sans Arabic) directly into any webpage.
 - **Deep DOM Infiltration:** Uses recursive `Shadow DOM` traversal to ensure the font is applied even to dynamically generated elements (like Google Translate's `font` tags).
 - **Floating Control Panel:** A sleek, draggable dashboard to customize text appearance on the fly.
 - **Customization Options:**
