@@ -13,6 +13,11 @@ A powerful UserScript designed to enhance the readability of Arabic text on webs
   - **Font Weight:** Toggle between regular (400) and bold (700) weights.
 - **Clean UI:** Includes a hideable panel with a clean, arrow-less numeric input.
 
+## ⚠️ Important Note
+This script is specifically optimized for **Arabic typography**. 
+- It is designed to be used primarily with **Google Translate** or on websites where Arabic content is rendered. 
+- Applying it to websites with mixed languages may result in the font being forced on English text as well. It is highly recommended to use this script in conjunction with automatic translation tools to get the best readability experience for Arabic content.
+
 ## Installation 📦
 
 1. **Install a UserScript Manager:** Install [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/) on your browser (e.g., Brave, Chrome, Firefox).
