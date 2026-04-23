@@ -34,11 +34,13 @@
     document.head.appendChild(styleTag);
 
     const btn = document.createElement('button');
-    btn.id = "toggle-btn"; btn.innerHTML = "ErroFont";
+    btn.id = "toggle-btn"; btn.innerHTML = "ErroFont"; btn.setAttribute("translate", "no");
     document.body.appendChild(btn);
 
     const panel = document.createElement('div');
     panel.id = "font-ctrl-panel";
+    panel.className = "notranslate";
+    btn.setAttribute("translate", "no");
     panel.innerHTML = `
         <div class="ctrl-row">الخط: <select id="ff"><option value="Tajawal">تجوال</option><option value="Cairo">Cairo</option><option value="IBM Plex Sans Arabic">IBM Plex</option></select></div>
         <div class="ctrl-row">الحجم: <input type="number" id="fs" value="16" style="width:50px">px</div>
