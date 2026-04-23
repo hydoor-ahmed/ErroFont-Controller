@@ -24,7 +24,7 @@
 
     const styleTag = document.createElement('style');
     styleTag.innerHTML = `
-        #font-ctrl-panel { position:fixed; bottom:80px; right:20px; z-index:999999; background:#ffffff; color:#333; padding:15px; border-radius:12px; font-family:sans-serif; display:none; width:220px; box-shadow:0 4px 15px rgba(0,0,0,0.2); border: 1px solid #ddd; ouline: none; }
+        #font-ctrl-panel { position:fixed; bottom:80px; right:20px; z-index:999999; background:#ffffff; color:#333; padding:15px; border-radius:12px; font-family:sans-serif; display:none; width:220px; box-shadow:0 4px 15px rgba(0,0,0,0.2); border: 1px solid #ddd; ouline: none; user-select: none; }
         #toggle-btn { position:fixed; bottom:20px; right:20px; z-index:1000000; padding:8px; cursor:pointer; background:#007bff; border:none; color:white; border-radius:12px; width:90px; height:40px; font-weight:bold; box-shadow:0 2px 10px rgba(0,0,0,0.2); }
         .ctrl-row { margin: 10px 0; display:flex; justify-content:space-between; align-items:center; }
         input, select { background:#f9f9f9; color:#333; border:1px solid #ccc; padding:4px; border-radius:4px; }
