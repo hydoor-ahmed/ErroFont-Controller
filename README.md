@@ -41,6 +41,3 @@ If the font doesn't apply immediately:
 - **Brave Shields:** Ensure "Block fingerprinting" is disabled for the specific site if Brave is blocking the font injection.
 - **Shadow DOM:** The script automatically handles Shadow DOM, but in extreme cases of nested iframes, you might need to adjust the script's `@match` rules.
 
-## License ⚖️
-
-Distributed under the MIT License. See `LICENSE` for more information.
